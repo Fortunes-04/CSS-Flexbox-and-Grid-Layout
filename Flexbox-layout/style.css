@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(226, 221, 221);
+}
+
+main {
+    color: white;
+    margin: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.first-content {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5em;
+
+
+}
+
+.middle-content {
+    background-color: hsl(184, 100%, 22%);
+    padding: 5em;
+}
+
+.last-content {
+    background-color: hsl(179, 100%, 13%);
+    padding: 5em;
+}
+
+.button1 {
+    border: 3px solid transparent;
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 10px;
+    display: inline-flexbox;
+    font-size: 10px;
+    margin: 4px 2px;
+    margin-top: 50px;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+.button2 {
+    border: 3px solid transparent;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 10px;
+    display: inline-flexbox;
+    font-size: 10px;
+    margin: 4px 2px;
+    margin-top: 50px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.button3 {
+    border: 3px solid transparent;
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 10px;
+    display: inline-flexbox;
+    font-size: 10px;
+    margin: 4px 2px;
+    margin-top: 50px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+
+p {
+    padding-bottom: 1px;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+
+}
